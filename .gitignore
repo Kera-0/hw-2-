@@ -1,0 +1,6 @@
+checkpoint_130m.zip
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+.env
+.env.*
