@@ -1,0 +1,39 @@
+{
+  "gpu": "Tesla T4",
+  "parameters": 130183936,
+  "rows": 1919,
+  "cold_seconds": 31.994890207999987,
+  "max_new_tokens": 192,
+  "batch_size": 128,
+  "no_eos": 6,
+  "source_clipped": 0,
+  "checkpoint_sha256": "adf2134a8c637a7b50b0fbee3370475e2e64c719eaf29fe29f73104f8582abf7",
+  "actual_t4": true,
+  "within_180_seconds": true,
+  "gpu_capability": [
+    7,
+    5
+  ],
+  "gpu_memory_bytes": 15636037632,
+  "peak_gpu_memory_bytes": 1208940032,
+  "python_version": "3.13.15",
+  "torch_version": "2.11.0+cu128",
+  "transformers_version": "4.48.3",
+  "cuda_version": "12.8",
+  "phase_seconds": {
+    "imports": 17.487363086999977,
+    "checkpoint_extraction_and_hash": 1.831342545000041,
+    "input_and_model_load": 1.2197957629999792,
+    "tokenization": 0.1807571020000296,
+    "generation_and_decode": 10.96895581800004,
+    "write_and_validate": 0.08694222199994783
+  },
+  "syntax_error_rows": [
+    1348,
+    1841
+  ],
+  "empty_code_rows": [],
+  "questions_lf_sha256": "a3a128e5acf694f9b9a828dcc582bacb79367eecf11af2f6041c0c5f788e7003",
+  "submission_sha256": "82e86729fa3ec05eedbcdb17ffe2116c43339d5cf983aafd2b913c44d40f6a3d",
+  "questions_sha256": "a3a128e5acf694f9b9a828dcc582bacb79367eecf11af2f6041c0c5f788e7003"
+}
